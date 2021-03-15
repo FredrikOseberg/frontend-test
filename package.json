@@ -1,0 +1,13 @@
+{
+  "name": "frontend-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fredrik Strand Oseberg",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.6.0"
+  },
+  "scripts": {
+    "open": "cypress open"
+  }
+}

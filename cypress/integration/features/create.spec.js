@@ -9,7 +9,7 @@ context('Actions', () => {
   //   }
   // };
   beforeEach(() => {
-    cy.visit('http://host.docker.internal:3000');
+    cy.visit('/');
     cy.get('[data-test="email-input-field"]')
       .type('fake@email.com')
       .should('have.value', 'fake@email.com');
